@@ -1,0 +1,145 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:verdana;
+}
+body{
+	background:grey;
+
+}
+#main_page{
+	width:800px;
+	background:#9EBF7C;
+	margin:0 auto;
+}
+.wrapper{
+	width:720px;
+	height:780px;
+	background:#9EBF7C;
+	margin:0 auto;
+}
+.header_part{
+	width:720px;
+	height:87px;
+	background:#9EBF7C;
+	/* border:1px solid red; */
+}
+.logo_part img{
+	padding-left:25px;
+}
+.banner_part{
+	width:720px;
+	height:170px;
+	background:url(../images/banner.png) no-repeat 0 0/100% 100%;
+}
+.banner_part{
+	position:relative;
+	border:3px solid #fff;
+	border-radius:8px 8px 0 0;
+}
+.banner_info img{
+	position:absolute;
+	bottom:0;
+	right:150px;
+}
+.banner_info h2{
+	padding:15px 20px;
+	color:#fff;
+	font-size:20px;
+}
+.banner_info a{
+	padding-left:15px;
+	color:#075c91;
+	text-decoration:none;
+}
+.nav_part{
+	height:30px;
+	width:720px;
+	border-bottom:3px solid #fff;
+	border-left:3px solid #fff;
+	border-right:3px solid #fff;
+}
+.nav_part ul{
+	list-style-type:none;
+}
+.nav_part ul li{
+		float:left;
+}
+.nav_part ul li a{
+	text-decoration:none;
+	width:119px;
+	height:30px;
+	text-align:center;
+	display:block;
+	font-size:12px;
+	color:#fff;
+	line-height:30px;
+}
+.welcome h2, .photo h2{
+	padding:20px;
+	font-weight:bold;
+	font-size:18px;
+}
+.text{
+	padding:25px;
+	text-align:justify;
+	font-size:12px;
+}
+.content{
+	width:720px;
+	height:420px;
+	border-bottom:3px solid #fff;
+	border-left:3px solid #fff;
+	border-right:3px solid #fff;
+	padding-top:20px;
+	padding-bottom:20px;
+	border-radius:0 0 8px 8px;
+	background:#e6e8df;
+}
+.photo ul{
+	list-style-type:none;
+}
+.photo ul li{
+	float:left;
+}
+.photo ul li img{
+	text-decoration:none;
+	padding:5px 10px;
+}
+.left_sidebar{
+	width:68%;
+	border-right:2px solid #fff;
+	float:left;
+	
+}
+.right_sidebar{
+	width:30%;
+	float:right;
+
+}
+#footer_cntn p{
+	text-align:center;
+	font-size:12px;
+	margin-bottom:0;
+	padding-bottom:10px;
+}
+.right_sidebar h2{
+	padding:20px;
+	font-weight:bold;
+	font-size:18px;
+	color:#85a157
+}
+.right_sidebar a{
+	color:#c77e0c;
+	font-weight:bold;
+	font-size:12px;
+}
+.right_sidebar p{
+	font-size:11px;
+	font-weight:regular;
+	padding-bottom:35px;
+	padding-top:25px;
+}
+.last_text{
+	color:#c77e0c;
+}
